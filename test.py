@@ -31,7 +31,7 @@ test_data = {
 }
 
 def test_hello_world():
-    assert run_script('hello_world.py') == 'Hello, world!'
+    assert run_script('hello.py') == 'Hello, World!'
 
 @pytest.mark.parametrize("input_data, expected", test_data['python_if_else'])
 def test_python_if_else(input_data, expected):
