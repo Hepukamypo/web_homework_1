@@ -1,0 +1,1 @@
+print(''.join(letter.upper() if letter == letter.lower() else letter.lower() for letter in input()))
